@@ -1,9 +1,6 @@
 import React from 'react';
+import DrawingScreen from './screens/DrawingScreen';
 
-export default function App(){
-    return (
-        <div className="min-h-screen">
-            App Template
-        </div>
-    )
+export default function App() {
+  return <DrawingScreen />;
 }
